@@ -42,9 +42,9 @@ public class BucketService {
                             .bucket(bucketName)
                             .build()
             );
+            return "Bucket is deleted: " + bucketName;
         }catch (MinioException e){
             return "Bucket is not deleted";
         }
-        return null;
     }
 }

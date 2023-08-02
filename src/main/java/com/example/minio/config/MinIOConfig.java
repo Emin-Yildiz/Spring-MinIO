@@ -40,7 +40,7 @@ public class MinIOConfig {
     Aşağıdaki bucket oluşturma ve silme metodları bir kere çalışmalı yoksa hata döndürüp uygulamanın çalışmasına engek oluyor.
      */
 
-//    // bucket oluşturma
+    // bucket oluşturma
 //    @Bean
 //    public void makeImageBucket() throws ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {
 //        client().makeBucket(
